@@ -2917,7 +2917,7 @@ PrefabInstance:
     - target: {fileID: 9035383252961999318, guid: f828ce7a4de1c4a4c90bf50fcd569cad,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 44.24
+      value: 44.27
       objectReference: {fileID: 0}
     - target: {fileID: 9035383252961999318, guid: f828ce7a4de1c4a4c90bf50fcd569cad,
         type: 3}
@@ -5822,9 +5822,29 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 250227015413713081, guid: 2c1131b4803eb164eb80461beb38f2f1,
         type: 3}
+      propertyPath: runspeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 250227015413713081, guid: 2c1131b4803eb164eb80461beb38f2f1,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 250227015413713081, guid: 2c1131b4803eb164eb80461beb38f2f1,
+        type: 3}
+      propertyPath: groundOffset
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 250227015413713081, guid: 2c1131b4803eb164eb80461beb38f2f1,
+        type: 3}
       propertyPath: terrainContainerLayer
       value: 
       objectReference: {fileID: 138254639}
+    - target: {fileID: 927853791765686706, guid: 2c1131b4803eb164eb80461beb38f2f1,
+        type: 3}
+      propertyPath: groundTransitionOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 927853791765686707, guid: 2c1131b4803eb164eb80461beb38f2f1,
         type: 3}
       propertyPath: m_RootOrder
@@ -5957,6 +5977,11 @@ PrefabInstance:
       propertyPath: snapshotResolution
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4093344675420705344, guid: 2c1131b4803eb164eb80461beb38f2f1,
+        type: 3}
+      propertyPath: far clip plane
+      value: 6000
+      objectReference: {fileID: 0}
     - target: {fileID: 4093344675420705345, guid: 2c1131b4803eb164eb80461beb38f2f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6066,6 +6091,16 @@ PrefabInstance:
         type: 3}
       propertyPath: enableWhenDeactivated.Array.data[0]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5716187443734173847, guid: 2c1131b4803eb164eb80461beb38f2f1,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091630027493473756, guid: 2c1131b4803eb164eb80461beb38f2f1,
+        type: 3}
+      propertyPath: offset.y
+      value: 500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c1131b4803eb164eb80461beb38f2f1, type: 3}
@@ -12933,13 +12968,18 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 607520655949060780, guid: ac14d983f5b2ed342b90ea2ab462f6e6,
         type: 3}
+      propertyPath: layerPriority
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 607520655949060780, guid: ac14d983f5b2ed342b90ea2ab462f6e6,
+        type: 3}
       propertyPath: Datasets.Array.data[0].path
       value: /binprod_heerlen/3d_bag/Buildings-{x}_{y}.1.2.bin
       objectReference: {fileID: 0}
     - target: {fileID: 607520655949060780, guid: ac14d983f5b2ed342b90ea2ab462f6e6,
         type: 3}
       propertyPath: Datasets.Array.data[1].path
-      value: /binprod_heerlen/buildings/Buildings-{x}_{y}.2.2.bin
+      value: /binprod_heerlen/3d_bag/Buildings-{x}_{y}.2.2.bin
       objectReference: {fileID: 0}
     - target: {fileID: 607520655949060780, guid: ac14d983f5b2ed342b90ea2ab462f6e6,
         type: 3}
@@ -12951,6 +12991,11 @@ PrefabInstance:
       propertyPath: Datasets.Array.data[0].Description
       value: LOD1.2
       objectReference: {fileID: 0}
+    - target: {fileID: 607520655949060780, guid: ac14d983f5b2ed342b90ea2ab462f6e6,
+        type: 3}
+      propertyPath: Datasets.Array.data[0].maximumDistance
+      value: 6000
+      objectReference: {fileID: 0}
     - target: {fileID: 616229442462763187, guid: ac14d983f5b2ed342b90ea2ab462f6e6,
         type: 3}
       propertyPath: serverRootWebAddress
@@ -12959,7 +13004,7 @@ PrefabInstance:
     - target: {fileID: 2225582094044424291, guid: ac14d983f5b2ed342b90ea2ab462f6e6,
         type: 3}
       propertyPath: textsAndSizes.Array.data[0].offset
-      value: 60
+      value: 170
       objectReference: {fileID: 0}
     - target: {fileID: 3180177119318747206, guid: ac14d983f5b2ed342b90ea2ab462f6e6,
         type: 3}
@@ -13039,7 +13084,7 @@ PrefabInstance:
     - target: {fileID: 7139907241435937829, guid: ac14d983f5b2ed342b90ea2ab462f6e6,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8613057891838618557, guid: ac14d983f5b2ed342b90ea2ab462f6e6,
         type: 3}

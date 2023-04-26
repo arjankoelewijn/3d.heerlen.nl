@@ -21,7 +21,7 @@ MonoBehaviour:
   TopRightRD:
     x: 237000
     y: 362000
-  zeroGroundLevelY: 0
+  zeroGroundLevelY: -200
   sharingUploadScenePath: https://func-3dutrecht-prod-weu.azurewebsites.net/api/UploadScene
   sharingDownloadScenePath: https://func-3dutrecht-prod-weu.azurewebsites.net/api/DownloadScene/{sceneId}
   sharingUploadModelPath: https://func-3dutrecht-prod-weu.azurewebsites.net/api/UploadModel/{sceneId}/{modelToken}
@@ -33,14 +33,10 @@ MonoBehaviour:
   sewerPipesWfsUrl: https://func-3dutrecht-prod-weu.azurewebsites.net/api/getrionedpipes/
   sewerManholesWfsUrl: https://func-3dutrecht-prod-weu.azurewebsites.net/api/getrionedmanholes/
   BagApiType: 1
-  buildingUrl: https://func-3dutrecht-prod-weu.azurewebsites.net/api/getbag/
-  numberIndicatorURL: 
-  numberIndicatorInstanceURL: 
-  monumentURL: 
+  kadasterBuildingURL: https://api.bag.kadaster.nl/lvbag/individuelebevragingen/v2/panden/{bagid}
+  kadasterBuildingAdressesURL: https://api.bag.kadaster.nl/lvbag/individuelebevragingen/v2/adressen?pandIdentificatie={bagid}
+  developmentKey: l7b8a3ff2c6eda4ce9ad86477973dae44d
+  productionKey: l7b8a3ff2c6eda4ce9ad86477973dae44d
   moreBuildingInfoUrl: https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?geometry.x={x}&geometry.y={y}&zoomlevel=5&objectId={id}
-  moreAddressInfoUrl: 
-  bagIdRequestServiceBoundingBoxUrl: 
-  bagIdRequestServicePolygonUrl: 
-  previewBackdropImage: https://geodata.nationaalgeoregister.nl/luchtfoto/rgb/wms?styles=&layers=Actueel_ortho25&service=WMS&request=GetMap&format=image%2Fpng&version=1.1.0&bbox={xmin},{ymin},{xmax},{ymax}&width={w}&height={h}&srs=EPSG:28992
   primaryColor: {r: 0.9254902, g: 0, b: 0, a: 1}
   secondaryColor: {r: 0, g: 0.27450982, b: 0.6, a: 1}
